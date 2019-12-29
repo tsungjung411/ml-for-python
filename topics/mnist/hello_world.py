@@ -24,3 +24,6 @@ model.fit(x_train, y_train, epochs=20)
 # 執行預測
 loss, metrics_accuracy = model.evaluate(x=x_test, y=y_test)
 print('loss={:.6f}, accuracy={:.2f}%'.format(loss, metrics_accuracy * 100))
+
+## 執行結果
+# loss=0.123097, accuracy=97.93%
